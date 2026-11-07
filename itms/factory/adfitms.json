@@ -1,0 +1,15 @@
+{
+	"name": "adfitms",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "20997c13-b4f1-40a5-81ea-1603fd191088",
+		"tenantId": "4a750873-b408-4af9-a66e-aa2322f6cee3"
+	}
+}
