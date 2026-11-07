@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfitms"
+		},
+		"DS_ITMS_INPUT_accountKey": {
+			"value": ""
+		},
+		"LS_ITMS_OUT_accountKey": {
+			"value": ""
+		},
+		"DS_ITMS_INPUT_properties_typeProperties_url": {
+			"value": "https://itmsscr.dfs.core.windows.net/"
+		},
+		"LS_ITMS_OUT_properties_typeProperties_url": {
+			"value": "https://itmsdst1.dfs.core.windows.net/"
+		}
+	}
+}
